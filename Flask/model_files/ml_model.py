@@ -31,7 +31,7 @@ feat= ['Recency', 'year_month', 'Rec_count', 'Cmp3Accepted', 'Cmp5Accepted',
 def works(data):
     
     # data = pd.DataFrame(data)
-    data.drop('ID',1,inplace = True)
+    # data.drop('ID',1,inplace = True)
     
     data['Date_Customer'] = pd.to_datetime(data['Date_Customer'])
 
